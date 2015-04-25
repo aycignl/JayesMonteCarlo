@@ -1,3 +1,4 @@
+package bayesian;
 
 import java.util.Arrays;
 
