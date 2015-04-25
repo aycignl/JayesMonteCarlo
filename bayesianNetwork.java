@@ -24,7 +24,7 @@ public class bayesianNetwork {
 		secondNode.addOutcomes("true", "false");
 		secondNode.setProbabilities(0.25, 0.75);
 		// r = Math.random();
-	  // secondNode.setProbabilities(1 - r, r);
+	        // secondNode.setProbabilities(1 - r, r);
 				
 		// create new node
 		BayesNode classNode = bnet.createNode("n_class");
