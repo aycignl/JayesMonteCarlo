@@ -1,2 +1,5 @@
 # Bayes_MonteCarlo_java
-Sampling with Monte Carlo method.
+Sampling using Monte Carlo method.
+In sampling was used from Jayes package ( Jayes written by Michael Kutschke).
+
+
