@@ -1,4 +1,9 @@
+/*
 
+name : Gonul AYCI
+e-mail : aycignl@gmail.com
+
+*/
 package bayesian;
 
 import java.util.ArrayList;
