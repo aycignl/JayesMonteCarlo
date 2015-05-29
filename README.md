@@ -1,4 +1,4 @@
-#Bayes MonteCarlo-java
+##BN MonteCarlo-java
 
 >In this repository, **sampling.java** class seperates two main parts.  The first part is Bayesian Network part, and the second one is Monte Carlo sampling part.   
 
