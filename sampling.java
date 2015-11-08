@@ -26,15 +26,13 @@ public class sampling {
 		BayesNode firstNode = bnet.createNode("n_1");
 		firstNode.addOutcomes("true", "false");
 		firstNode.setProbabilities(0.6, 0.4);
-		// double r = Math.random();
-		// node_first.setProbabilities(r, 1 - r);
+
 		
 		// create node:f2 with its prior
 		BayesNode secondNode = bnet.createNode("n_2");
 		secondNode.addOutcomes("true", "false");
 		secondNode.setProbabilities(0.25, 0.75);
-		// r = Math.random();
-	        // secondNode.setProbabilities(1 - r, r);
+
 				
 		// create new node
 		BayesNode classNode = bnet.createNode("n_class");
