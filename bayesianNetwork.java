@@ -1,9 +1,8 @@
 /*
-
 name : Gonul AYCI
 e-mail : aycignl@gmail.com
-
 */
+
 package bayesian;
 
 import java.util.Arrays;
@@ -15,7 +14,7 @@ import org.eclipse.recommenders.tests.jayes.util.ArrayUtils;
 public class bayesianNetwork {
 	public static void main(String args[]) {
 
-		// ****************** Create Bayesian Network *********************//
+		// ****************** Create Bayesian Network ****************** //
 		
 		BayesNet bnet = new BayesNet();
 
@@ -23,6 +22,7 @@ public class bayesianNetwork {
 		BayesNode firstNode = bnet.createNode("n_1");
 		firstNode.addOutcomes("true", "false");
 		firstNode.setProbabilities(0.6, 0.4);
+		
 		/*
 		 you can use prior as a random number: 
 		 double r = Math.random();
@@ -42,10 +42,10 @@ public class bayesianNetwork {
 		// @formatter:off
 		classNode.setProbabilities(ArrayUtils.flatten(new double[][][] {
 				{ { 0.45, 0.25, 0.3 }, // f1:true,f2:true,
-						{ 0.25, 0.7, 0.05 } // f1:true,f2:false,
+				  { 0.25, 0.7, 0.05 } // f1:true,f2:false,
 
 				}, { { 0.2, 0.4, 0.4 }, // f1:false,f2:true,
-						{ 0.1, 0.1, 0.8 } // f1:false,f2:false.
+				     { 0.1, 0.1, 0.8 } // f1:false,f2:false.
 				} }));
 }
 }
